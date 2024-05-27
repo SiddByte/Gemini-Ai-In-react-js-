@@ -1,0 +1,122 @@
+/* App.css */
+
+/* General styles */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+textarea.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  resize: none; /* Disable textarea resize */
+}
+
+button.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Button colors */
+button.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+button.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+button.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+button.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+/* Readonly textarea style */
+textarea[readonly] {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+/* Loader styles */
+.loader {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  button.btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-top: 1px solid #ccc;
+}
+
+.links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.developer {
+  font-size: 0.9rem;
+  color: #666;
+}
